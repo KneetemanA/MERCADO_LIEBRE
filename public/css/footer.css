@@ -1,0 +1,27 @@
+.body-footer {
+    background-color:#ebebeb;
+}
+
+.body-footer {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.body-footer section p {
+    text-align: center;
+    font-size: var(--cuerpo-de-t);
+    font-weight: lighter;
+}
+
+.body-footer section i {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1em;
+    width: 1em;
+    color: var(--celeste);
+}
+
+.body-footer section p {
+    margin-top: 10px;
+    font-size: var(--cuerpo-de-t);
+}

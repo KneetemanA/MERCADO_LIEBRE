@@ -1,0 +1,36 @@
+.body-header img{
+    width: 80%;
+}
+
+.body-header{
+    background-color:#EAC926;
+    margin: 5px 5px 5px 5px;
+}
+.body-header form input {
+    margin: 5px 0px 10px 60px;
+}
+.body-header p {
+    padding-left: 50px;
+}
+
+.body-header nav li {
+    color: black;
+}
+
+.body-header nav ul li a {
+    color: black;
+}
+
+.burger-menu{
+    background-color: #1259c3;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin-left: 50%;
+    border-radius: 3px;
+}
+
+.burger-menu i {
+    color: #ebebeb;
+    padding-top: 9px;
+}

@@ -1,0 +1,30 @@
+.body-main {
+    background-color:#ebebeb;
+}
+.body-main img {
+    width: 100%;
+}
+
+.body-main section h4{
+    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+    
+};
+
+.body-main section article img {
+    width: 80%;
+    height: 90%;
+    margin: 10px
+};
+
+.body-main section article p.precios {
+    font-size: var(--precios);
+};
+
+.body-main section article p.descuentos {
+    font-size: var(--descuentos);
+}
+
+.body-main section article p.descripcion {
+    font-size: var(--descripciones);
+}
+
