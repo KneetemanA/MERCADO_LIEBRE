@@ -1,18 +1,13 @@
 .body-footer {
-    background-color:#ebebeb;
-}
-
-.body-footer {
-    margin-top: 5px;
-    text-align: center;
-}
-
-.body-footer section p {
-    text-align: center;
+    background-color:var(--grisClaro);
+    margin: 0px;
     font-size: var(--cuerpo-de-t);
-    font-weight: lighter;
+    text-align: center;
 }
 
+.body-footer section h4{
+    
+}
 .body-footer section i {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -22,6 +17,9 @@
 }
 
 .body-footer section p {
+    text-align: center;
+    font-size: var(--cuerpo-de-t);
+    font-weight: lighter;
     margin-top: 10px;
     font-size: var(--cuerpo-de-t);
 }

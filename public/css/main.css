@@ -1,30 +1,44 @@
 .body-main {
     background-color:#ebebeb;
 }
-.body-main img {
+
+.body-main .img-banner {
     width: 100%;
 }
 
-.body-main section h4{
+.body-main .general {
+    margin-left: 5px;
+}
+.body-main .general h4{
+    font-family: var(--roboto);
     font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
-    
+    margin-left: 5px;
 };
 
-.body-main section article img {
-    width: 80%;
-    height: 90%;
-    margin: 10px
-};
+.body-main .general article{
+    background-color: red;
+}
 
-.body-main section article p.precios {
+.body-main .general article .img-producto{
+    width: 70%;
+}
+/*.body-main .general1 h4 article img.img-producto {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.body-main .general1 article p.precios {
     font-size: var(--precios);
+    margin-left: 5px;
 };
 
-.body-main section article p.descuentos {
+.body-main .general1 article p.descuentos{
     font-size: var(--descuentos);
+    margin-left: 5px
 }
 
-.body-main section article p.descripcion {
+.body-main .general1 article p.descripcion {
     font-size: var(--descripciones);
-}
+    margin-left: 5px;
+}*/
 

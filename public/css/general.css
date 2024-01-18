@@ -1,5 +1,5 @@
 :root {
-    --roboto : 'Roboto', sans-serif;
+    --roboto:'Roboto';
 
     --amarillo: #EAC926;
     --azul: #03264C;
@@ -16,6 +16,6 @@
 };
 
 *{
-    margin: 0px;
     font-family: var(--roboto);
+    margin: 0px;
 }
