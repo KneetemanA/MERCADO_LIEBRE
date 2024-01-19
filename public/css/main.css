@@ -13,32 +13,29 @@
     font-family: var(--roboto);
     font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
     margin-left: 5px;
-};
+}
 
 .body-main .general article{
-    background-color: red;
+    background-color: var(--grisClaro)
 }
 
 .body-main .general article .img-producto{
-    width: 70%;
-}
-/*.body-main .general1 h4 article img.img-producto {
-    width: 50%;
-    margin-left: 10px;
+  width: 50%;
+  margin-left: 10px;   
+
 }
 
-.body-main .general1 article p.precios {
+.body-main .general article p.precios {
     font-size: var(--precios);
     margin-left: 5px;
-};
+}
 
-.body-main .general1 article p.descuentos{
+.body-main .general article p.descuentos{
     font-size: var(--descuentos);
     margin-left: 5px
 }
 
-.body-main .general1 article p.descripcion {
+.body-main .general article p.descripcion {
     font-size: var(--descripciones);
     margin-left: 5px;
-}*/
-
+}

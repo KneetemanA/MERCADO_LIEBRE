@@ -1,19 +1,22 @@
 .body-footer {
     background-color:var(--grisClaro);
     margin: 0px;
-    font-size: var(--cuerpo-de-t);
+}
+
+.body-footer section{
+    text-align: center
+}
+.body-footer section i {
     text-align: center;
+    font-size: x-large;
+    margin-bottom: 5px;
+    height: 0em;
+    width: 2em;
+    color: var(--celeste);
 }
 
 .body-footer section h4{
-    
-}
-.body-footer section i {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 1em;
-    width: 1em;
-    color: var(--celeste);
+    text-align: center;
 }
 
 .body-footer section p {
@@ -23,3 +26,11 @@
     margin-top: 10px;
     font-size: var(--cuerpo-de-t);
 }
+
+.body-footer div {
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+
+}
+

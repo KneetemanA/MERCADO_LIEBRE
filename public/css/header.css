@@ -11,7 +11,7 @@ body {
 }
 
 .body-header img{
-    width: 30%;
+    width: 10%;
     margin: 10px 5px 5px 25px;
 }
 
@@ -21,10 +21,11 @@ body {
 }
 
 .body-header form input {
+    display: block;
     color: black;
 }
 
-.body-header i.lupa{
+.body-header i{
     color: black;
 }
 
@@ -55,7 +56,7 @@ body {
 .body-header nav ul li a i{
 
 }
-.burger-menu{
+.burger-menu {
     background-color: var(--celeste);
     text-align: center;
     width: 35px;
