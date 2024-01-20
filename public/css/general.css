@@ -15,7 +15,17 @@
     --descripciones: 16px;
 };
 
+body{
+    margin: 0%;
+}
+
 *{
     font-family: var(--roboto);
     margin: 0px;
+    text-align: justify;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
