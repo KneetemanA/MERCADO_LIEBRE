@@ -1,8 +1,8 @@
 @media screen and (max-width: 360px) {
     .body-main {
         background-color: #ebebeb;
-        width: 100%;
-        text-align: center;
+        width: 90%;
+        margin: auto;
     }
 
     .body-main .img-banner {
@@ -11,7 +11,6 @@
 
     .body-main .general {
         margin-bottom: 10px;
-        margin-left: auto;
         text-align: center;
     }
 
@@ -21,14 +20,13 @@
         color: var(--grisOscuro);
         text-align: center;
         height: 40px;
-        margin-top: 10px;
     }
 
     .body-main .general article {
         background-color: white;
         border: solid 1px lightgray;
         height: 310px;
-        width: 331px;
+        width: 322px;
         text-align: center;
         margin: auto;
         margin-bottom: 10px;
@@ -45,7 +43,6 @@
     }
 
     .body-main .general article .caja-info i {
-
         display: block;
         margin: 10px;
         color: var(--verde);
@@ -78,7 +75,7 @@
 @media screen and (min-width: 361px) {
     .body-main {
         background-color: #ebebeb;
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
@@ -155,7 +152,7 @@
 @media screen and (min-width: 769px) {
     .body-main {
         background-color: #ebebeb;
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
@@ -165,7 +162,6 @@
 
     .body-main .general {
         margin-bottom: 10px;
-        margin-left: auto;
         text-align: center;
     }
 
@@ -181,7 +177,7 @@
     .body-main .general article {
         background-color: white;
         border: solid 1px lightgray;
-        height: 328px;
+        height: 330px;
         width: 331px;
         text-align: center;
         margin: auto;
@@ -195,7 +191,7 @@
         margin: auto;
     }
 
-    .body-main .general article .caja-info {
+    .body-main .general article.caja-info {
         border-top: solid 1px var(--grisClaro);
     }
 
