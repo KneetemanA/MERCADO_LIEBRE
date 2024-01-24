@@ -4,39 +4,50 @@
         background-color: var(--amarillo);
         margin: 0px;
         font-family: var(--roboto);
-        height: 180px;
+        height: 143px;
     }
 
-    .body-header img {
-        width: 38%;
-        margin: 10px 5px 5px 25px;
+    .body-header .componentes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .body-header .componentes img {
+        width: 50%;
+        margin: 0
     }
 
-    .body-header form {
-        display: block;
-        margin: 10px 0px 10px 15px;
-    }
-
-    .body-header form input {
+    .body-header .componentes form {
+        width: 50%;
         display: inline;
-        color: black;
-        padding: 3px;
+        margin: 20px 0;
     }
 
-    .body-header .icono {
-        font-size: 13px;
-        background-color: var(--grisClaro);
-        margin: 1px 0px 0px 1px;
-        padding: 3px;
-        border: solid 1px black;
+    .body-header .componentes form input {
         display: inline;
+        color: var(--grisClaro);
+        padding: 3px;
+        font-size: small;
+        border-radius: 3px;
+        margin: 0px 11px;
     }
 
-    .body-header p {
-        font-size: 15px;
-        padding-left: 44px;
-        font-weight: 400;
-        height: 21px;
+    .body-header .componentes .icono {
+        font-size: 14px;
+        background-color: white;
+        padding: 3px;
+        border: solid 1px var(--grisOscuro);
+        display: inline;
+        position: absolute;
+        right: 12px;
+        border-radius: 3px;
+    }
+
+    .body-header .componentes p {
+    font-size: 15px;
+    margin: auto;
+    font-weight: 400;
+    margin-bottom: 10px;
     }
 
     .body-header nav {
@@ -63,18 +74,19 @@
     }
 
     .burger-menu {
-        background-color: var(--celeste);
-        text-align: center;
-        width: 35px;
-        height: 35px;
-        margin-left: 43%;
-        margin-top: 10px;
+        background-color: var(--azul);
+        color: white;
+        display: block;
+        max-width: 35px;
+        padding: 7px 0;
         border-radius: 3px;
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
     }
 
     .burger-menu i {
-        color: #ebebeb;
-        padding-top: 9px;
+        color: white;
     }
 }
 
@@ -123,6 +135,7 @@
         margin: 0px 0px 0px 0px;
         width: 100%;
         height: 80px;
+        display: none;
     }
 
     .body-header nav ul {

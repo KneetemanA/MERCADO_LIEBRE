@@ -19,6 +19,12 @@ body{
     margin: 0%;
 }
 
+* {
+    margin: 0 px ;
+    padding: 0 px ;
+    box-sizing: border-box ;
+}
+
 *{
     font-family: var(--roboto);
     margin: 0px;
