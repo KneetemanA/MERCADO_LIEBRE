@@ -95,7 +95,7 @@
         background-color: var(--amarillo);
         margin: 0px;
         font-family: var(--roboto);
-        height: 180px;
+        height: 300px;
     }
 
     .body-header img {
@@ -135,7 +135,6 @@
         margin: 0px 0px 0px 0px;
         width: 100%;
         height: 80px;
-        display: none;
     }
 
     .body-header nav ul {
@@ -161,6 +160,7 @@
         margin-left: 43%;
         margin-top: 10px;
         border-radius: 3px;
+        display: block;
     }
 
     .burger-menu i {
@@ -174,7 +174,7 @@
         background-color: var(--amarillo);
         margin: 0px;
         font-family: var(--roboto);
-        height: 300px;
+        height: 328px;
         font-size: var(--cuerposDeTexto);
     }
 
@@ -206,7 +206,7 @@
     }
 
     .body-header p {
-        font-size: var(--cuerposDeTexto);
+        font-size: 20px;
         text-align: center;
         font-weight: 400;
         height: 21px;
