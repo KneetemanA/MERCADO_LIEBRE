@@ -158,22 +158,31 @@
         top: -15px;
     }
 
+    .body-main .general .general-art article .caja-info .prec-desc{
+        display: flex;
+    }
     .body-main .general .general-art article .caja-info .precios {
         font-size: var(--precios);
         margin-left: 10px;
-        text-align: justify;
+        display: inline;
+        padding: 0px 10px 10px 10px;
+        width: 30%;
     }
 
     .body-main .general .general-art article .caja-info .descuentos {
         font-size: var(--descuentos);
         margin-left: 10px;
         color: var(--verde);
+        display: inline;
+        padding: 0px 10px 10px 10px;
+        width: 70%;
     }
 
     .body-main .general .general-art article .caja-info .descripcion {
         font-size: var(--descripciones);
         margin-left: 10px;
         padding-top: 10px;
+        color: var(--grisOscuro);
     }
 }
 
@@ -198,9 +207,10 @@
         font-family: var(--roboto);
         font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
         color: var(--grisOscuro);
-        text-align: center;
+        text-align: left;
         height: 40px;
         margin-top: 10px;
+        margin-left: 20px;
     }
 
     .body-main .general .general-art {
@@ -247,21 +257,30 @@
         top: -15px;
     }
 
+    .body-main .general .general-art article .caja-info .prec-desc{
+        display: flex;
+    }
     .body-main .general .general-art article .caja-info .precios {
         font-size: var(--precios);
         margin-left: 10px;
-        text-align: justify;
+        display: inline;
+        padding: 0px 10px 10px 10px;
+        width: 30%;
     }
 
     .body-main .general .general-art article .caja-info .descuentos {
         font-size: var(--descuentos);
         margin-left: 10px;
         color: var(--verde);
+        display: inline;
+        padding: 0px 10px 10px 10px;
+        width: 70%;
     }
 
     .body-main .general .general-art article .caja-info .descripcion {
         font-size: var(--descripciones);
         margin-left: 10px;
         padding-top: 10px;
+        color: var(--grisOscuro);
     }
 }
