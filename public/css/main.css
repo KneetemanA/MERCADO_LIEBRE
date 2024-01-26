@@ -158,58 +158,6 @@
         top: -15px;
     }
 
-    .body-main .general {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-
-    .body-main .general h4 {
-        font-family: var(--roboto);
-        font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
-        color: var(--grisOscuro);
-        text-align: center;
-        height: 40px;
-        margin-top: 10px;
-    }
-
-
-    .body-main .general .general-art article {
-        background-color: white;
-        border: solid 1px lightgray;
-        height: 350px;
-        width: 318px;
-        text-align: center;
-        margin: auto;
-        margin-bottom: 10px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-
-    .body-main .general .general-art article .img-producto {
-        width: 58%;
-        text-align: center;
-        margin: auto;
-    }
-
-    .body-main .general .general-art article .caja-info {
-        border-top: solid 1px var(--grisClaro);
-    }
-
-    .body-main .general .general-art article .caja-info .envio {
-        display: block;
-        color: var(--verde);
-        text-align: justify;
-        font-size: 16px;
-        padding: 5px;
-        width: 23px;
-        height: 20px;
-        border: 1px solid var(--verde);
-        background-color: #FFF;
-        border-radius: 50%;
-        position: relative;
-        top: -15px;
-    }
-
-
     .body-main .general .general-art article .caja-info .precios {
         font-size: var(--precios);
         margin-left: 10px;
