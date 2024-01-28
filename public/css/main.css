@@ -161,6 +161,7 @@
     .body-main .general .general-art article .caja-info .prec-desc{
         display: flex;
     }
+    
     .body-main .general .general-art article .caja-info .precios {
         font-size: var(--precios);
         margin-left: 10px;
