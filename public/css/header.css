@@ -273,7 +273,6 @@
     .body-header nav {
         color: black;
         height: 32px;
-        /* margin: 14px; */
         display: flex;
         justify-content: space-between;
         flex-direction: row;
