@@ -1,0 +1,99 @@
+.main-form{
+    background-color: var(--grisClaro);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-form .formulario{
+    /* display: block; */
+    /* border: 1px none; */
+    /* margin: auto; */
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.main-form .formulario .campos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-form .formulario .campos label{
+    margin-bottom: 5px;
+}
+
+.main-form .formulario .campos input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.main-form .formulario .campos-fecha{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-form .formulario .campos-fecha label{
+    margin-bottom: 10px;
+}
+
+.main-form .formulario .campos-fecha input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 3px;
+}
+
+.main-form .formulario .categorias{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-form .formulario .categorias .intereses{display: contents;}
+
+.main-form .formulario .categorias .intereses label{
+    margin-bottom: 5px;
+}
+
+.main-form .formulario .categorias .intereses input{
+    margin-right: 10px;
+}
+
+.campos button{
+    padding: 10px 20px;
+    background-color: var(--verde);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.campos button:hover {
+    background-color: #0056b3;
+}
+
+.campos .delete {
+    background-color: #dc3545;
+}
+
+.campos .delete:hover {
+    background-color: #c82333;
+}
+
+.error-usuario {
+    color: #dc3545;
+    margin-top: 5px;
+}
