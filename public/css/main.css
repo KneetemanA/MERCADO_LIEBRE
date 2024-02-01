@@ -46,6 +46,7 @@
         border-top: solid 1px var(--grisClaro);
         margin: auto;
         font-weight: 400;
+        position: relative;
     }
 
     .body-main .general .general-art article .caja-info .envio {
@@ -62,6 +63,7 @@
         position: relative;
         margin-left: auto;
         top: -15px;
+
     }
 
     .body-main .general .general-art article .caja-info .precios {
@@ -231,6 +233,7 @@
         /* margin-bottom: 10px; */
         box-shadow: 0px 0px 10px rgb(100, 100, 100)
     }
+     
 
     .body-main .general .general-art article .img-producto {
         width: 60%;
@@ -284,4 +287,29 @@
         padding-top: 10px;
         color: var(--grisOscuro);
     }
+
+    article {
+        position: relative;
+      }
+      
+      .descripcion {
+        display: none;
+      }
+      
+      .caja-info:hover .descripcion {
+        display: block;
+      }
+      
+      .caja-info:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      }
+      
+      .envio {
+        transition: transform 1s ease-in-out;
+      }
+      
+      .envio:hover {
+        transform: rotate(-90deg);
+      }
+
 }
