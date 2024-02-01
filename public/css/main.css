@@ -1,3 +1,4 @@
+/*MOBILE*/
 @media screen and (max-width: 360px) {
     .body-main {
         background-color: #ebebeb;
@@ -88,6 +89,7 @@
     }
 }
 
+/*TABLET*/
 @media screen and (min-width: 361px) {
     .body-main {
         background-color: #ebebeb;
@@ -148,8 +150,8 @@
         text-align: justify;
         font-size: 16px;
         padding: 5px;
-        width: 30px;
-        height: 30px;
+        width: 23px;
+        height: 20px;
         border: 1px solid var(--verde);
         background-color: #FFF;
         border-radius: 50%;
@@ -187,6 +189,7 @@
     }
 }
 
+/*DESKTOP*/
 @media screen and (min-width: 769px) {
     .body-main {
         background-color: #ebebeb;
