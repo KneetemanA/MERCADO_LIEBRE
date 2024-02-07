@@ -1,7 +1,6 @@
 @media screen and (max-width: 360px) {
     .body-main {
         background-color: #ebebeb;
-        width: 90%;
         margin: auto;
     }
 
@@ -16,24 +15,25 @@
 
     .body-main .general h4 {
         font-family: var(--roboto);
-        font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+        font-size: large;
         color: var(--grisOscuro);
         text-align: center;
         height: 40px;
+        text-align: justify;
     }
 
     .body-main .general article {
         background-color: white;
         border: solid 1px lightgray;
-        height: 310px;
-        width: 322px;
+        height: 216px;
+        width: 170px;
         text-align: center;
-        margin: auto;
+        margin-left: 25px;
         margin-bottom: 10px;
     }
 
     .body-main .general article .img-producto {
-        width: 58%;
+        width: 66%;
         text-align: center;
         margin: auto;
     }

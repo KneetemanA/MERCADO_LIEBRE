@@ -1,42 +1,48 @@
-@media screen and (max-width: 360px) {
-
     .body-header {
         background-color: var(--amarillo);
         margin: 0px;
         font-family: var(--roboto);
-        height: 180px;
+        height: 110px;
     }
 
     .body-header img {
-        width: 38%;
-        margin: 10px 5px 5px 25px;
+        width: 25vw;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
     }
 
     .body-header form {
-        display: block;
-        margin: 10px 0px 10px 15px;
+        display: inline-block;
     }
 
     .body-header form input {
         display: inline;
         color: black;
         padding: 3px;
+        font-size: 8px;
+        border: none;
+        margin-left: 11px;
+        border-radius: 2px;
     }
 
     .body-header .icono {
-        font-size: 13px;
-        background-color: var(--grisClaro);
-        margin: 1px 0px 0px 1px;
+        font-size: 8px;
+        color: var(--grisOscuro);
+        background-color: white;
+        margin: 0px 0px 0px -8px;
         padding: 3px;
         border: solid 1px black;
         display: inline;
+        border: none;
     }
 
     .body-header p {
-        font-size: 15px;
-        padding-left: 44px;
+        font-size: 10px;
+        padding-left: 10px;
+        margin-top: 20px;
         font-weight: 400;
-        height: 21px;
+        height: 16px;
     }
 
     .body-header nav {
@@ -63,20 +69,19 @@
     }
 
     .burger-menu {
-        background-color: var(--celeste);
+        background-color: var(--azul);
         text-align: center;
         width: 35px;
-        height: 35px;
-        margin-left: 43%;
-        margin-top: 10px;
+        height: 22px;
         border-radius: 3px;
+        margin-left: 90px;
+        margin-top: 6px;
     }
 
     .burger-menu i {
         color: #ebebeb;
-        padding-top: 9px;
+        padding-top: 3px;
     }
-}
 
 @media screen and (min-width: 361px) {
     .body-header {
