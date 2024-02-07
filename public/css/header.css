@@ -1,9 +1,8 @@
 /*Celular*/
-@media screen and (max-width: 360px) {
 
     .body-header {
         background-color: var(--amarillo);
-        margin: 0px;
+        margin: auto;
         font-family: var(--roboto);
         height: 143px;
     }
@@ -31,7 +30,7 @@
         padding: 3px;
         font-size: small;
         border-radius: 3px;
-        margin: 0px 11px;
+        margin: 2px -11px;
     }
 
     .body-header .componentes .icono {
@@ -106,7 +105,6 @@
     .burger-menu i {
         color: white;
     }
-}
 
 /*TABLET*/
 @media screen and (min-width: 361px) {
@@ -120,8 +118,8 @@
     .body-header .componentes {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        align-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
     }
 
     .body-header .componentes img {
