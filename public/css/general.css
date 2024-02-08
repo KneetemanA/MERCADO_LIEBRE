@@ -27,5 +27,8 @@ body{
 
 a {
     color: black;
+    list-style: none;
     text-decoration: none;
 }
+
+.img-banner{width: 100%;}

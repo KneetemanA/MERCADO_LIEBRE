@@ -1,7 +1,6 @@
-@media screen and (max-width: 360px) {
     .body-footer {
         background-color:var(--grisClaro);
-        margin: 0px;
+        margin: 0;
     }
     
     .body-footer section{
@@ -38,7 +37,7 @@
         margin: 0px;
         padding: 0px;
     }
-}
+
 
 @media screen and (min-width: 361px) {
     .body-footer {

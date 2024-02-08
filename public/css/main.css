@@ -1,11 +1,7 @@
-@media screen and (max-width: 360px) {
     .body-main {
         background-color: #ebebeb;
         margin: auto;
-    }
-
-    .body-main .img-banner {
-        width: 100%;
+        width: 90%;
     }
 
     .body-main .general {
@@ -15,42 +11,43 @@
 
     .body-main .general h4 {
         font-family: var(--roboto);
-        font-size: large;
+        font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
         color: var(--grisOscuro);
-        text-align: center;
-        height: 40px;
-        text-align: justify;
+        margin-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 
     .body-main .general article {
         background-color: white;
         border: solid 1px lightgray;
-        height: 216px;
-        width: 170px;
+        width: 60vw;
         text-align: center;
-        margin-left: 25px;
+        margin: auto;
         margin-bottom: 10px;
     }
 
     .body-main .general article .img-producto {
-        width: 66%;
+        width: 55vw;
         text-align: center;
         margin: auto;
     }
 
     .body-main .general article .caja-info {
-        border-top: solid 1px var(--grisClaro);
+        border-top: solid 1px #ebebeb;
+        padding: 15px;
     }
 
     .body-main .general article .caja-info i {
         display: block;
         margin: 10px;
         color: var(--verde);
-        text-align: justify;
+        text-align: center;
         border: solid 1px var(--verde);
         border-radius: 100%;
-        width: 10%;
-        height: 30px;
+        width: 20px;
+        height: 20px;
+        padding: 4px;
     }
 
     .body-main .general article .caja-info .precios {
@@ -68,9 +65,9 @@
     .body-main .general article .caja-info .descripcion {
         font-size: var(--descripciones);
         margin-left: 10px;
+        color: var(--grisOscuro);
         display: none;
     }
-}
 
 @media screen and (min-width: 361px) {
     .body-main {
@@ -101,35 +98,35 @@
     .body-main .general article {
         background-color: white;
         border: solid 1px lightgray;
-        height: 310px;
-        width: 331px;
+        width: 60%;
         text-align: center;
         margin: auto;
         margin-bottom: 10px;
-        box-shadow : 0px 0px 10px rgb(100,100,100)
+        box-shadow: 0px 0px 10px rgb(100,100,100);
     }
 
     .body-main .general article .img-producto {
-        width: 58%;
+        width: 35vw;
         text-align: center;
         margin: auto;
     }
 
     .body-main .general article .caja-info {
         border-top: solid 1px var(--grisClaro);
+        padding: 10px;
     }
 
     .body-main .general article .caja-info i {
-
-        display: block;
-        margin: 10px;
-        color: var(--verde);
-        text-align: justify;
-        border: solid 1px var(--verde);
-        border-radius: 100%;
-        width: 10%;
-        height: 30px;
-    }
+display: block;
+margin: 10px;
+color: var(--verde);
+text-align: center;
+border: solid 1px var(--verde);
+border-radius: 100%;
+width: 20px;
+height: 20px;
+padding: 4px;
+}
 
     .body-main .general article .caja-info .precios {
         font-size: var(--precios);
@@ -145,7 +142,8 @@
 
     .body-main .general article .caja-info .descripcion {
         font-size: var(--descripciones);
-        margin-left: 10px;
+        margin-top: 10px;
+        display: block;
     }
 }
 
@@ -177,8 +175,7 @@
     .body-main .general article {
         background-color: white;
         border: solid 1px lightgray;
-        height: 330px;
-        width: 331px;
+        width: 40%;
         text-align: center;
         margin: auto;
         margin-bottom: 10px;
@@ -196,16 +193,16 @@
     }
 
     .body-main .general article .caja-info i {
-
-        display: block;
-        margin: 10px;
-        color: var(--verde);
-        text-align: justify;
-        border: solid 1px var(--verde);
-        border-radius: 100%;
-        width: 10%;
-        height: 30px;
-    }
+display: block;
+margin: 10px;
+color: var(--verde);
+text-align: center;
+border: solid 1px var(--verde);
+border-radius: 100%;
+width: 20px;
+height: 20px;
+padding: 4px;
+}
 
     .body-main .general article .caja-info .precios {
         font-size: var(--precios);
