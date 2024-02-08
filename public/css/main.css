@@ -69,155 +69,157 @@
         display: none;
     }
 
-@media screen and (min-width: 361px) {
-    .body-main {
-        background-color: #ebebeb;
-        width: 100%;
-        margin: auto;
+    @media (min-width: 361px) {
+        .body-main {
+            background-color: #ebebeb;
+            width: 100%;
+            margin: auto;
+        }
+
+        .body-main .img-banner {
+            width: 100%;
+        }
+
+        .body-main .general {
+            margin-bottom: 10px;
+            margin-left: auto;
+            text-align: center;
+        }
+
+        .body-main .general h4 {
+            font-family: var(--roboto);
+            font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+            color: var(--grisOscuro);
+            text-align: center;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+        .body-main .general article {
+            background-color: white;
+            border: solid 1px lightgray;
+            width: 60%;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 10px;
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+
+        .body-main .general article .img-producto {
+            width: 35vw;
+            text-align: center;
+            margin: auto;
+        }
+
+        .body-main .general article .caja-info {
+            border-top: solid 1px var(--grisClaro);
+            padding: 10px;
+        }
+
+        .body-main .general article .caja-info i {
+            display: block;
+            margin: 10px;
+            color: var(--verde);
+            text-align: center;
+            border: solid 1px var(--verde);
+            border-radius: 100%;
+            width: 20px;
+            height: 20px;
+            padding: 4px;
+
+        }
+
+        .body-main .general article .caja-info .precios {
+            font-size: var(--precios);
+            margin-left: 10px;
+            text-align: justify;
+        }
+
+        .body-main .general article .caja-info .descuentos {
+            font-size: var(--descuentos);
+            margin-left: 10px;
+            color: var(--verde);
+        }
+
+        .body-main .general article .caja-info .descripcion {
+            font-size: var(--descripciones);
+            margin-top: 10px;
+            display: block;
+        }
     }
 
-    .body-main .img-banner {
-        width: 100%;
+    @media (min-width: 769px) {
+        .body-main {
+            background-color: #ebebeb;
+            width: 100%;
+            margin: auto;
+        }
+
+        .body-main .img-banner {
+            width: 100%;
+        }
+
+        .body-main .general {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .body-main .general h4 {
+            font-family: var(--roboto);
+            font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+            color: var(--grisOscuro);
+            text-align: center;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+        .body-main .general article {
+            background-color: white;
+            border: solid 1px lightgray;
+            width: 40%;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 10px;
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+
+        .body-main .general article .img-producto {
+            width: 58%;
+            text-align: center;
+            margin: auto;
+        }
+
+        .body-main .general article.caja-info {
+            border-top: solid 1px var(--grisClaro);
+        }
+
+        .body-main .general article .caja-info i {
+            display: block;
+            margin: 10px;
+            color: var(--verde);
+            text-align: center;
+            border: solid 1px var(--verde);
+            border-radius: 100%;
+            width: 20px;
+            height: 20px;
+            padding: 4px;
+
+        }
+
+        .body-main .general article .caja-info .precios {
+            font-size: var(--precios);
+            margin-left: 10px;
+            text-align: justify;
+        }
+
+        .body-main .general article .caja-info .descuentos {
+            font-size: var(--descuentos);
+            margin-left: 10px;
+            color: var(--verde);
+        }
+
+        .body-main .general article .caja-info .descripcion {
+            font-size: var(--descripciones);
+            margin-left: 10px;
+        }
     }
-
-    .body-main .general {
-        margin-bottom: 10px;
-        margin-left: auto;
-        text-align: center;
-    }
-
-    .body-main .general h4 {
-        font-family: var(--roboto);
-        font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
-        color: var(--grisOscuro);
-        text-align: center;
-        height: 40px;
-        margin-top: 10px;
-    }
-
-    .body-main .general article {
-        background-color: white;
-        border: solid 1px lightgray;
-        width: 60%;
-        text-align: center;
-        margin: auto;
-        margin-bottom: 10px;
-        box-shadow: 0px 0px 10px rgb(100,100,100);
-    }
-
-    .body-main .general article .img-producto {
-        width: 35vw;
-        text-align: center;
-        margin: auto;
-    }
-
-    .body-main .general article .caja-info {
-        border-top: solid 1px var(--grisClaro);
-        padding: 10px;
-    }
-
-    .body-main .general article .caja-info i {
-display: block;
-margin: 10px;
-color: var(--verde);
-text-align: center;
-border: solid 1px var(--verde);
-border-radius: 100%;
-width: 20px;
-height: 20px;
-padding: 4px;
-}
-
-    .body-main .general article .caja-info .precios {
-        font-size: var(--precios);
-        margin-left: 10px;
-        text-align: justify;
-    }
-
-    .body-main .general article .caja-info .descuentos {
-        font-size: var(--descuentos);
-        margin-left: 10px;
-        color: var(--verde);
-    }
-
-    .body-main .general article .caja-info .descripcion {
-        font-size: var(--descripciones);
-        margin-top: 10px;
-        display: block;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .body-main {
-        background-color: #ebebeb;
-        width: 100%;
-        margin: auto;
-    }
-
-    .body-main .img-banner {
-        width: 100%;
-    }
-
-    .body-main .general {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-
-    .body-main .general h4 {
-        font-family: var(--roboto);
-        font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
-        color: var(--grisOscuro);
-        text-align: center;
-        height: 40px;
-        margin-top: 10px;
-    }
-
-    .body-main .general article {
-        background-color: white;
-        border: solid 1px lightgray;
-        width: 40%;
-        text-align: center;
-        margin: auto;
-        margin-bottom: 10px;
-        box-shadow: 0px 0px 10px rgb(100,100,100);
-    }
-
-    .body-main .general article .img-producto {
-        width: 58%;
-        text-align: center;
-        margin: auto;
-    }
-
-    .body-main .general article.caja-info {
-        border-top: solid 1px var(--grisClaro);
-    }
-
-    .body-main .general article .caja-info i {
-display: block;
-margin: 10px;
-color: var(--verde);
-text-align: center;
-border: solid 1px var(--verde);
-border-radius: 100%;
-width: 20px;
-height: 20px;
-padding: 4px;
-}
-
-    .body-main .general article .caja-info .precios {
-        font-size: var(--precios);
-        margin-left: 10px;
-        text-align: justify;
-    }
-
-    .body-main .general article .caja-info .descuentos {
-        font-size: var(--descuentos);
-        margin-left: 10px;
-        color: var(--verde);
-    }
-
-    .body-main .general article .caja-info .descripcion {
-        font-size: var(--descripciones);
-        margin-left: 10px;
-    }
-}

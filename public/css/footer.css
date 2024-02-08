@@ -39,7 +39,7 @@
     }
 
 
-@media screen and (min-width: 361px) {
+@media (min-width: 361px) {
     .body-footer {
         background-color:var(--grisClaro);
         margin: 0px;
@@ -81,7 +81,7 @@
     }
 }
 
-@media screen and (min-width: 769px) {
+@media (min-width: 769px) {
     .body-footer {
         background-color:var(--grisClaro);
         margin: 0px;
