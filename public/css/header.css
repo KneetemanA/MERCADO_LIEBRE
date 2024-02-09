@@ -2,24 +2,23 @@
         background-color: var(--amarillo);
         margin: 0px;
         font-family: var(--roboto);
-        height: 100%;
+        height: 30vh;
     }
 
     .body-header .componentes {
+        width: 100%;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
     }
 
     .body-header .componentes img {
-        width: 50%;
-        margin: 0
+        width: 50vw;
     }
 
     .body-header .componentes form {
         width: 50%;
         display: inline;
-        margin: 20px 0;
+        margin: 30px 0;
     }
 
     .body-header .componentes form input {
@@ -28,7 +27,6 @@
         padding: 3px;
         font-size: small;
         border-radius: 3px;
-        margin: 0px 11px;
     }
 
     .body-header .componentes .icono {
@@ -38,7 +36,8 @@
         border: solid 1px var(--grisOscuro);
         display: inline;
         position: absolute;
-        right: 12px;
+        top: 29px;
+        right: 3px;
         border-radius: 3px;
         border-left: 0;
     }
@@ -47,7 +46,7 @@
         font-size: 15px;
         margin: auto;
         font-weight: 400;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .body-header nav {
@@ -110,45 +109,36 @@
         background-color: var(--amarillo);
         margin: 0px;
         font-family: var(--roboto);
-        height: 125px;
+        height: 100%;
     }
 
     .body-header .componentes {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: space-between;
+    width: 100%;
     }
 
     .body-header .componentes img {
-        width: 12%;
-        margin: 26px;
+        width: 40%;
     }
 
     .body-header .componentes form {
         display: inline;
-        margin: 20px 0;
     }
 
     .body-header .componentes form input {
         display: inline;
-        width: 300px;
         color: var(--grisClaro);
         padding: 9px;
-        font-size: large;
         border-radius: 3px;
         margin: 0px 11px;
         border: none;
-        /* padding-right: 30px; */
     }
 
     .body-header .componentes .icono {
         font-size: 12px;
         background-color: white;
-        padding: 13px;
+        padding: 10px;
         display: inline;
         position: absolute;
-        right: 282px;
         border-radius: 3px;
         color: var(--grisOscuro);
     }
@@ -156,8 +146,6 @@
     .body-header .componentes p {
         font-size: 15px;
         font-weight: 400;
-        width: 180px;
-        margin: 23px 9px 0 90px;
         text-align: right;
     }
 
@@ -171,7 +159,6 @@
     }
 
     .body-header nav .navbar-left {
-        padding: 2px;
         list-style: none;
         display: flex;
         flex-direction: row;
@@ -201,7 +188,6 @@
 
     .body-header nav .navbar-right li {
         color: black;
-        margin-left: 5px;
     }
 
     .body-header nav .navbar-right li a {
