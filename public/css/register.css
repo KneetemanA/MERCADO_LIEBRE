@@ -128,7 +128,6 @@
             display: grid;
             grid-template-columns: 1fr 2fr;
             align-items: center;
-            margin-bottom: 20px;
         }
 
         .main-form .formulario .campos label {
@@ -215,23 +214,17 @@
         .main-form {
             background-color: var(--grisClaro);
             width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 50px;
             box-sizing: border-box;
         }
 
         .main-form .formulario {
             display: grid;
             grid-template-columns: 1fr;
-            grid-gap: 20px;
+            grid-gap: 2px;
         }
 
         .main-form .formulario .campos {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            align-items: center;
-            margin-bottom: 20px;
+            margin: 8px;
         }
 
         .main-form .formulario .campos label {
@@ -239,7 +232,7 @@
         }
 
         .main-form .formulario .campos input {
-            width: 100%;
+            width: 95%;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -293,7 +286,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin-right: 10px;
+            text-align: center;
         }
 
         .campos button:hover {
@@ -302,6 +295,13 @@
 
         .campos .delete {
             background-color: #dc3545;
+            width: 45%;
+            padding: 10px 20px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
         }
 
         .campos .delete:hover {
