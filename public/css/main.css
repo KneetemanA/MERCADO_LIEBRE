@@ -1,5 +1,4 @@
-/*MOBILE*/
-@media screen and (max-width: 360px) {
+
     .body-main {
         background-color: #ebebeb;
         width: 90%;
@@ -28,8 +27,7 @@
     .body-main .general .general-art article {
         background-color: white;
         border: solid 1px lightgray;
-        height: 320px;
-        width: 305px;
+        width: 76vw;
         text-align: center;
         margin: auto;
         margin-bottom: 10px;
@@ -87,7 +85,7 @@
         padding: 15px;
         color: var(--grisOscuro);
     }
-}
+
 
 /*TABLET*/
 @media screen and (min-width: 361px) {
@@ -113,7 +111,7 @@
         color: var(--grisOscuro);
         text-align: center;
         height: 40px;
-        margin-top: 10px;
+        margin: auto;
     }
 
     .body-main .general .general-art {

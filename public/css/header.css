@@ -1,27 +1,24 @@
-/*Celular*/
-
     .body-header {
         background-color: var(--amarillo);
         margin: auto;
         font-family: var(--roboto);
-        height: 143px;
+        height: 30vh;
     }
 
     .body-header .componentes {
+        width: 100%;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
     }
 
     .body-header .componentes img {
-        width: 50%;
-        margin: 0
+        width: 50vw;
     }
 
     .body-header .componentes form {
         width: 50%;
         display: inline;
-        margin: 20px 0;
+        margin: 30px 0;
     }
 
     .body-header .componentes form input {
@@ -30,7 +27,6 @@
         padding: 3px;
         font-size: small;
         border-radius: 3px;
-        margin: 2px -11px;
     }
 
     .body-header .componentes .icono {
@@ -40,7 +36,8 @@
         border: solid 1px var(--grisOscuro);
         display: inline;
         position: absolute;
-        right: 12px;
+        top: 29px;
+        right: 3px;
         border-radius: 3px;
         border-left: 0;
     }
@@ -49,45 +46,12 @@
         font-size: 15px;
         margin: auto;
         font-weight: 400;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .body-header nav {
         color: black;
-        margin: 0px 0px 0px 0px;
-        width: 100%;
-        height: 80px;
         display: none;
-    }
-
-    .body-header nav .navbar-left {
-        width: 150px;
-        height: 80px;
-        padding: 2px;
-    }
-
-    .body-header nav .navbar-left li {
-        color: black;
-        margin-left: 5px;
-    }
-
-    .body-header nav .navbar-left li a {
-        text-decoration: none;
-    }
-
-    .body-header nav .navbar-right {
-        width: 150px;
-        height: 80px;
-        padding: 2px;
-    }
-
-    .body-header nav .navbar-right li {
-        color: black;
-        margin-left: 5px;
-    }
-
-    .body-header nav .navbar-right li a {
-        text-decoration: none;
     }
 
     .burger-menu {
@@ -106,233 +70,236 @@
         color: white;
     }
 
-/*TABLET*/
-@media screen and (min-width: 361px) {
-    .body-header {
-        background-color: var(--amarillo);
-        margin: 0px;
-        font-family: var(--roboto);
-        height: 125px;
+
+    @media (min-width: 361px) {
+        .body-header {
+            background-color: var(--amarillo);
+            margin: 0px;
+            font-family: var(--roboto);
+            height: 100%;
+        }
+
+        .body-header .componentes {
+            width: 100%;
+        }
+
+        .body-header .componentes img {
+            width: 15%;
+        }
+
+        .body-header .componentes form {
+            display: inline;
+            width: 59%;
+            position: relative;
+        }
+
+        .body-header .componentes form input {
+            display: inline;
+            color: var(--grisClaro);
+            padding: 10px;
+            width: 75%;
+            border-radius: 3px;
+            margin-left: 45px;
+            border: none;
+        }
+
+        .body-header .componentes .icono {
+            font-size: 13px;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            position: absolute;
+            top: 0px;
+            right: 65px;
+            border-radius: 3px;
+            border: none;
+            border-left-style: ridge;
+            color: var(--grisOscuro);
+        }
+
+        .body-header .componentes p {
+            font-size: 15px;
+            font-weight: 400;
+            text-align: right;
+            width: 26%;
+            margin: 0;
+            text-align: end;
+            margin-top: 4%;
+        }
+
+        .body-header nav {
+            color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .body-header nav .navbar-left {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .body-header nav .navbar-left li {
+            color: black;
+            margin-left: 5px;
+        }
+
+        .body-header nav .navbar-left li a {
+            text-decoration: none;
+        }
+
+        .body-header nav .navbar-right {
+            list-style: none;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .body-header nav .navbar-right li {
+            color: black;
+            margin: 0;
+        }
+
+        .body-header nav .navbar-right li a {
+            text-decoration: none;
+        }
+
+        .burger-menu {
+            background-color: var(--celeste);
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            margin-left: 43%;
+            margin-top: 10px;
+            border-radius: 3px;
+            display: none;
+        }
+
+        .burger-menu i {
+            color: #ebebeb;
+            padding-top: 9px;
+        }
     }
 
-    .body-header .componentes {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
+    @media (min-width: 769px) {
+        .body-header {
+            background-color: var(--amarillo);
+            margin: auto;
+            font-family: var(--roboto);
+            height: 100%;
+            font-size: var(--cuerposDeTexto);
+        }
 
-    .body-header .componentes img {
-        width: 12%;
-        margin: 26px;
-    }
-
-    .body-header .componentes form {
-        display: inline;
-        margin: 20px 0;
-    }
-
-    .body-header .componentes form input {
-        display: inline;
-        width: 300px;
-        color: var(--grisClaro);
-        padding: 9px;
-        font-size: large;
-        border-radius: 3px;
-        margin: 0px 11px;
-        border: none;
-        /* padding-right: 30px; */
-    }
-
-    .body-header .componentes .icono {
-        font-size: 12px;
-        background-color: white;
-        padding: 13px;
-        display: inline;
-        position: absolute;
-        right: 282px;
-        border-radius: 3px;
-        color: var(--grisOscuro);
-    }
-
-    .body-header .componentes p {
-        font-size: 15px;
-        font-weight: 400;
-        width: 291px;
-        margin: 23px 9px 0 90px;
-        text-align: right;
-    }
-
-    .body-header nav {
-        color: black;
-        margin: 0px 0px 0px 0px;
+        .body-header .componentes {
         width: 100%;
-        height: 80px;
-        display: none;
-    }
+        }
 
-    .body-header nav .navbar-left li {
-        color: black;
-        margin-left: 5px;
-    }
+        .body-header .componentes img {
+            width: 15%;
+            margin-left: 5%;
+        }
 
-    .body-header nav .navbar-left li a {
-        text-decoration: none;
-    }
+        .body-header .componentes form {
+            display: inline;
+            width: 50%;
+            position: relative;
+        }
 
-    .body-header nav .navbar-right {
-        padding: 2px;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
+        .body-header .componentes form input {
+            display: inline;
+            color: var(--grisClaro);
+            padding: 10px;
+            width: 80%;
+            border-radius: 3px;
+            margin-left: 10px;
+            border: none;
+        }
 
-    .body-header nav .navbar-right li {
-        color: black;
-        margin-left: 5px;
-    }
+        .body-header .componentes .icono {
+            font-size: 13px;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            position: absolute;
+            top: 0px;
+            right: 35px;
+            border-radius: 3px;
+            border: none;
+            border-left-style: ridge;
+            color: var(--grisOscuro);
+        }
 
-    .body-header nav .navbar-right li a {
-        text-decoration: none;
-    }
+        .body-header .componentes p {
+            /* height: 21px; */
+            font-size: 14px;
+            font-weight: 400;
+            text-align: right;
+            width: 311px;
+        }
 
-    .burger-menu {
-        background-color: var(--celeste);
-        text-align: center;
-        width: 35px;
-        height: 35px;
-        margin-left: 43%;
-        margin-top: 10px;
-        border-radius: 3px;
-    }
+        .body-header nav {
+            color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
 
-    .burger-menu i {
-        color: #ebebeb;
-        padding-top: 9px;
-    }
-}
+        .body-header nav .navbar-left {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
 
-/*desktop*/
-@media screen and (min-width: 769px) {
-    .body-header {
-        background-color: var(--amarillo);
-        margin: 0px;
-        font-family: var(--roboto);
-        height: 150px;
-        font-size: var(--cuerposDeTexto);
-    }
-   
-    .body-header .componentes {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
+        .body-header nav .navbar-left li {
+            color: black;
+            margin-left: 5px;
+        }
 
-    .body-header .componentes img {
-        width: 12%;
-        margin: 26px;
-    }
+        .body-header nav .navbar-left li a {
+            text-decoration: none;
+        }
 
-    .body-header .componentes form {
-        display: inline;
-        margin: 20px 0;
-    }
+        .body-header nav .navbar-right {
+            list-style: none;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
 
-    .body-header .componentes form input {
-        display: inline;
-        width: 400px;
-        color: var(--grisClaro);
-        padding: 8px;
-        font-size: large;
-        border-radius: 3px;
-        border: none;
-    }
+        .body-header nav .navbar-right li {
+            color: black;
+            margin-left: 5px;
+        }
 
-    .body-header .componentes .icono {
-        font-size: 12px;
-        background-color: white;
-        padding: 12px;
-        display: inline;
-        position: absolute;
-        right: 391px;
-        border-radius: 3px;
-        color: var(--grisOscuro);
-    }
+        .body-header nav .navbar-right li a {
+            text-decoration: none;
+        }
 
-    .body-header p {
-        font-size: var(--cuerposDeTexto);
-        text-align: center;
-        font-weight: 400;
-        text-align: right;
-        width: 311px;
-    }
+        .burger-menu {
+            background-color: var(--celeste);
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            margin-left: 43%;
+            margin-top: 46px;
+            border-radius: 3px;
+            display: none;
+        }
 
-    .body-header nav {
-        color: black;
-        height: 32px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        .burger-menu i {
+            color: #ebebeb;
+            padding-top: 9px;
+        }
     }
-
-    .body-header nav .navbar-left {
-        padding: 2px;
-        /* list-style: none; */
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-end;
-        font-size: large;
-    }
-
-    .body-header nav .navbar-left li {
-        color: black;
-        margin-left: 5px;
-    }
-
-    .body-header nav .navbar-left li a {
-        text-decoration: none;
-    }
-
-    .body-header nav .navbar-right {
-        padding: 2px;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-end;
-        font-size: large;
-    }
-
-    .body-header nav .navbar-right li {
-        color: black;
-        margin-left: 5px;
-    }
-
-    .body-header nav .navbar-right li a {
-        text-decoration: none;
-    }
-
-    .burger-menu {
-        background-color: var(--celeste);
-        text-align: center;
-        width: 35px;
-        height: 35px;
-        margin-left: 43%;
-        margin-top: 46px;
-        border-radius: 3px;
-        display: none;
-    }
-
-    .burger-menu i {
-        color: #ebebeb;
-        padding-top: 9px;
-    }
-}
