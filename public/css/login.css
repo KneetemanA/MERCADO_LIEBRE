@@ -1,5 +1,4 @@
 /*Celular*/
-@media (max-width: 360px){
     .login{
         margin: auto;
         padding: 30px 100px;
@@ -66,7 +65,7 @@
         height: 36px;
         font-size: larger;
     }
-}
+
 
 /*tablet*/
 @media (min-width: 361px) {

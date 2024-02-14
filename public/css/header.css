@@ -277,6 +277,7 @@
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
+        }
 
         .body-header nav .navbar-right li {
             color: black;

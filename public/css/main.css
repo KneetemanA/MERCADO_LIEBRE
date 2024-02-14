@@ -88,7 +88,7 @@
 
 
 /*TABLET*/
-@media screen and (min-width: 361px) {
+@media (min-width: 361px) {
     .body-main {
         background-color: #ebebeb;
         width: 100%;
@@ -188,7 +188,7 @@
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 769px) {
+@media (min-width: 769px) {
     .body-main {
         background-color: #ebebeb;
         width: 100%;
