@@ -51,40 +51,7 @@
 
     .body-header nav {
         color: black;
-        margin: 0px 0px 0px 0px;
-        width: 100%;
-        height: 80px;
         display: none;
-    }
-
-    .body-header nav .navbar-left {
-        width: 150px;
-        height: 80px;
-        padding: 2px;
-    }
-
-    .body-header nav .navbar-left li {
-        color: black;
-        margin-left: 5px;
-    }
-
-    .body-header nav .navbar-left li a {
-        text-decoration: none;
-    }
-
-    .body-header nav .navbar-right {
-        width: 150px;
-        height: 80px;
-        padding: 2px;
-    }
-
-    .body-header nav .navbar-right li {
-        color: black;
-        margin-left: 5px;
-    }
-
-    .body-header nav .navbar-right li a {
-        text-decoration: none;
     }
 
     .burger-menu {
@@ -104,229 +71,235 @@
     }
 
 
-@media (min-width: 361px) {
-    .body-header {
-        background-color: var(--amarillo);
-        margin: 0px;
-        font-family: var(--roboto);
-        height: 100%;
+    @media (min-width: 361px) {
+        .body-header {
+            background-color: var(--amarillo);
+            margin: 0px;
+            font-family: var(--roboto);
+            height: 100%;
+        }
+
+        .body-header .componentes {
+            width: 100%;
+        }
+
+        .body-header .componentes img {
+            width: 15%;
+        }
+
+        .body-header .componentes form {
+            display: inline;
+            width: 59%;
+            position: relative;
+        }
+
+        .body-header .componentes form input {
+            display: inline;
+            color: var(--grisClaro);
+            padding: 10px;
+            width: 75%;
+            border-radius: 3px;
+            margin-left: 45px;
+            border: none;
+        }
+
+        .body-header .componentes .icono {
+            font-size: 13px;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            position: absolute;
+            top: 0px;
+            right: 65px;
+            border-radius: 3px;
+            border: none;
+            border-left-style: ridge;
+            color: var(--grisOscuro);
+        }
+
+        .body-header .componentes p {
+            font-size: 15px;
+            font-weight: 400;
+            text-align: right;
+            width: 26%;
+            margin: 0;
+            text-align: end;
+            margin-top: 4%;
+        }
+
+        .body-header nav {
+            color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .body-header nav .navbar-left {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .body-header nav .navbar-left li {
+            color: black;
+            margin-left: 5px;
+        }
+
+        .body-header nav .navbar-left li a {
+            text-decoration: none;
+        }
+
+        .body-header nav .navbar-right {
+            list-style: none;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .body-header nav .navbar-right li {
+            color: black;
+            margin: 0;
+        }
+
+        .body-header nav .navbar-right li a {
+            text-decoration: none;
+        }
+
+        .burger-menu {
+            background-color: var(--celeste);
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            margin-left: 43%;
+            margin-top: 10px;
+            border-radius: 3px;
+            display: none;
+        }
+
+        .burger-menu i {
+            color: #ebebeb;
+            padding-top: 9px;
+        }
     }
 
-    .body-header .componentes {
-    width: 100%;
-    }
+    @media (min-width: 769px) {
+        .body-header {
+            background-color: var(--amarillo);
+            margin: auto;
+            font-family: var(--roboto);
+            height: 100%;
+            font-size: var(--cuerposDeTexto);
+        }
 
-    .body-header .componentes img {
-        width: 40%;
-    }
+        .body-header .componentes {
+        width: 100%;
+        }
 
-    .body-header .componentes form {
-        display: inline;
-    }
+        .body-header .componentes img {
+            width: 15%;
+            margin-left: 5%;
+        }
 
-    .body-header .componentes form input {
-        display: inline;
-        color: var(--grisClaro);
-        padding: 9px;
-        border-radius: 3px;
-        margin: 0px 11px;
-        border: none;
-    }
+        .body-header .componentes form {
+            display: inline;
+            width: 50%;
+            position: relative;
+        }
 
-    .body-header .componentes .icono {
-        font-size: 12px;
-        background-color: white;
-        padding: 10px;
-        display: inline;
-        position: absolute;
-        border-radius: 3px;
-        color: var(--grisOscuro);
-    }
+        .body-header .componentes form input {
+            display: inline;
+            color: var(--grisClaro);
+            padding: 10px;
+            width: 80%;
+            border-radius: 3px;
+            margin-left: 10px;
+            border: none;
+        }
 
-    .body-header .componentes p {
-        font-size: 15px;
-        font-weight: 400;
-        text-align: right;
-    }
+        .body-header .componentes .icono {
+            font-size: 13px;
+            background-color: white;
+            padding: 10px;
+            display: inline;
+            position: absolute;
+            top: 0px;
+            right: 35px;
+            border-radius: 3px;
+            border: none;
+            border-left-style: ridge;
+            color: var(--grisOscuro);
+        }
 
-    .body-header nav {
-        color: black;
-        margin: 14px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
+        .body-header .componentes p {
+            /* height: 21px; */
+            font-size: 14px;
+            font-weight: 400;
+            text-align: right;
+            width: 311px;
+        }
 
-    .body-header nav .navbar-left {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
+        .body-header nav {
+            color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
 
-    .body-header nav .navbar-left li {
-        color: black;
-        margin-left: 5px;
-    }
+        .body-header nav .navbar-left {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
 
-    .body-header nav .navbar-left li a {
-        text-decoration: none;
-    }
+        .body-header nav .navbar-left li {
+            color: black;
+            margin-left: 5px;
+        }
 
-    .body-header nav .navbar-right {
-        padding: 2px;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
+        .body-header nav .navbar-left li a {
+            text-decoration: none;
+        }
 
-    .body-header nav .navbar-right li {
-        color: black;
-    }
+        .body-header nav .navbar-right {
+            list-style: none;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
 
-    .body-header nav .navbar-right li a {
-        text-decoration: none;
-    }
+        .body-header nav .navbar-right li {
+            color: black;
+            margin-left: 5px;
+        }
 
-    .burger-menu {
-        background-color: var(--celeste);
-        text-align: center;
-        width: 35px;
-        height: 35px;
-        margin-left: 43%;
-        margin-top: 10px;
-        border-radius: 3px;
-        display: none;
-    }
+        .body-header nav .navbar-right li a {
+            text-decoration: none;
+        }
 
-    .burger-menu i {
-        color: #ebebeb;
-        padding-top: 9px;
-    }
-}
+        .burger-menu {
+            background-color: var(--celeste);
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            margin-left: 43%;
+            margin-top: 46px;
+            border-radius: 3px;
+            display: none;
+        }
 
-@media screen and (min-width: 769px) {
-    .body-header {
-        background-color: var(--amarillo);
-        margin: auto;
-        font-family: var(--roboto);
-        height: 100%;
-        font-size: var(--cuerposDeTexto);
+        .burger-menu i {
+            color: #ebebeb;
+            padding-top: 9px;
+        }
     }
-   
-    .body-header .componentes {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
-
-    .body-header .componentes img {
-        width: 12%;
-        margin: 26px;
-    }
-
-    .body-header .componentes form {
-        display: inline;
-        margin: 20px 0;
-    }
-
-    .body-header .componentes form input {
-        display: inline;
-        width: 400px;
-        color: var(--grisClaro);
-        padding: 8px;
-        font-size: large;
-        border-radius: 3px;
-        border: none;
-    }
-
-    .body-header .componentes .icono {
-        font-size: 12px;
-        background-color: white;
-        padding: 12px;
-        display: inline;
-        position: absolute;
-        right: 391px;
-        border-radius: 3px;
-        color: var(--grisOscuro);
-    }
-
-    .body-header .componentes p {
-        /* height: 21px; */
-        font-size: 16px;
-        font-weight: 400;
-        text-align: right;
-        width: 311px;
-    }
-
-    .body-header nav {
-        color: black;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-
-    .body-header nav .navbar-left {
-        padding: 2px;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-end;
-        font-size: large;
-    }
-
-    .body-header nav .navbar-left li {
-        color: black;
-        margin-left: 5px;
-    }
-
-    .body-header nav .navbar-left li a {
-        text-decoration: none;
-    }
-
-    .body-header nav .navbar-right {
-        padding: 2px;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-end;
-        font-size: large;
-    }
-
-    .body-header nav .navbar-right li {
-        color: black;
-        margin-left: 5px;
-    }
-
-    .body-header nav .navbar-right li a {
-        text-decoration: none;
-    }
-
-    .burger-menu {
-        background-color: var(--celeste);
-        text-align: center;
-        width: 35px;
-        height: 35px;
-        margin-left: 43%;
-        margin-top: 46px;
-        border-radius: 3px;
-        display: none;
-    }
-
-    .burger-menu i {
-        color: #ebebeb;
-        padding-top: 9px;
-    }
-}
