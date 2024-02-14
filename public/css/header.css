@@ -120,7 +120,6 @@
         .body-header .componentes p {
             font-size: 15px;
             font-weight: 400;
-            text-align: right;
             width: 26%;
             margin: 0;
             text-align: end;
@@ -203,7 +202,7 @@
 
         .body-header .componentes img {
             width: 15%;
-            margin-left: 5%;
+            margin-left: 5px;
         }
 
         .body-header .componentes form {
@@ -229,7 +228,7 @@
             display: inline;
             position: absolute;
             top: 0px;
-            right: 35px;
+            right: 40px;
             border-radius: 3px;
             border: none;
             border-left-style: ridge;
@@ -237,11 +236,10 @@
         }
 
         .body-header .componentes p {
-            /* height: 21px; */
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 400;
             text-align: right;
-            width: 311px;
+            width: 32%;
         }
 
         .body-header nav {
@@ -251,6 +249,7 @@
             flex-wrap: nowrap;
             justify-content: space-between;
             align-items: flex-start;
+            font-size: 15px;
         }
 
         .body-header nav .navbar-left {
@@ -277,6 +276,7 @@
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
+        }
 
         .body-header nav .navbar-right li {
             color: black;
