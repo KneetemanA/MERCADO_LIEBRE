@@ -1,15 +1,13 @@
 /*Celular*/
-@media (max-width: 360px){
     .login{
         margin: auto;
-        padding: 30px 100px;
+        padding: 30px;
         background-color: var(--grisClaro);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 8px
     }
     
     .login .nombre{
-        text-align: center;
         position: relative;
         margin-bottom: 20px;
     }
@@ -23,7 +21,7 @@
     
     .login .nombre input{
         width: 100%;
-        padding: 10px;
+        padding: 12px;
         box-sizing: border-box;
         border: white;
         border-radius: 5px;
@@ -44,7 +42,7 @@
     
     .login .contraseña input{
         width: 100%;
-        padding: 20px;
+        padding: 10px;
         box-sizing: border-box;
         border: white;
         border-radius: 4px;
@@ -66,7 +64,7 @@
         height: 36px;
         font-size: larger;
     }
-}
+
 
 /*tablet*/
 @media (min-width: 361px) {
@@ -141,7 +139,7 @@
 @media (min-width: 769px){
     .login{
         margin: auto;
-        padding: 30px 100px;
+        padding: 25px;
         background-color: var(--grisClaro);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 8px
@@ -150,18 +148,16 @@
     .login .nombre{
         position: relative;
         display: block;
-        padding: 5px;
         border: none;
         border-radius: 8px;
         background-color: #fff;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         color: var(--grisOscuro);
     }
     
     .login .nombre label{
         color: var(--grisOscuro);
         position: absolute;
-        margin-top: 15px;
         left: 10px;
         }
     
@@ -179,18 +175,16 @@
     .login .contraseña{
         position: relative;
         display: block;
-        padding: 5px;
         border: none;
         border-radius: 8px;
         background-color: #fff;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         color: var(--grisOscuro);
     }
     
     .login .contraseña label{
         color: var(--grisOscuro);
         position: absolute;
-        margin-top: 15px;
         left: 10px;
     }
     
