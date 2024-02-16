@@ -101,6 +101,10 @@
         color: var(--celeste);
     }
     
+    .body-footer section i:hover{
+        color:blue
+    }
+    
     .body-footer section h4{
         text-align: center;
         height: 18px;
