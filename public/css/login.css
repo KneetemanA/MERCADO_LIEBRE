@@ -137,6 +137,10 @@
         height: 36px;
         font-size: larger;
     }
+
+    .login .enviar input:hover {
+        background-color: rgb(0, 2, 128);
+    }
 }
 
 /*Desktop*/
@@ -217,5 +221,9 @@
         text-align: center;
         height: 36px;
         font-size: larger;
+    }
+
+    .login .enviar input:hover {
+        background-color: rgb(0, 2, 128);
     }
 }
